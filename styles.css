@@ -1,0 +1,46 @@
+:root {
+    --navyblue: rgb(20,20,100)
+}
+
+body {background-color: rgb(0,10,120);}
+
+.title, .progress, .results{
+    color: lightskyblue;
+}
+
+
+.flex-box{
+    background-color: lightskyblue;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 60px 1fr 1fr
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+
+.nav-bar, .bottom-bar {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightpink;
+    color: navyblue
+}
+
+.middle-container{
+    background-color: lightskyblue;
+    margin:4px;
+}
+
+.flex-box{
+    flex-direction: column-reverse;
+}
+
+.flex-box2{
+    flex-direction: column-reverse;
+    margin: 20px;
+    flex-wrap: wrap;
+}
